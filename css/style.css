@@ -1,22 +1,21 @@
 /*
 #A574DE
 #3653BC
+#C86BE5
 */
 
 body {
   margin: 0 auto;
   width: 100%;
   max-width: 1024px;
-  background-color: #cac9c9;
+  background-color: #a574de;
 }
 header {
   position: relative;
   /* background: linear-gradient(#4a4e69, whitesmoke);*/
   background-color: black;
   height: 200px;
-}
-.container {
-  margin: 0 auto;
+  //border-radius: 10px;
 }
 .menu_opcoes {
   position: absolute;
@@ -53,4 +52,160 @@ header {
   color: black;
   background-color: #a574de;
   text-shadow: 2px 2px 2px white;
+}
+/*código referente ao corpo do site*/
+.container {
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1024px;
+  height: 1200px;
+  background-color: #e6cdee;
+}
+.container h1 {
+  color: white;
+  padding: 10px;
+  -webkit-text-stroke-width: 2px; /* Largura da borda */
+  -webkit-text-stroke-color: #754ba6; /* Cor da borda */
+}
+.busca,
+.menu_start {
+  background-color: #c86be5;
+  font-weight: bold;
+  font-family: verdana, arial, sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 28%;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px black;
+  float: left;
+  margin-top: 5px;
+  /*transform: rotate(-10deg);*/
+}
+.menu_start {
+  clear: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.menu_start li {
+  background-color: #754ba6;
+  margin-bottom: 12px;
+  padding: 5px 10px;
+  box-shadow: 3px 3px 3px white;
+}
+.menu_start a {
+  text-decoration: none;
+  color: white;
+}
+.menu_start ul {
+  list-style: none;
+  margin-right: 10px;
+  margin-left: -30px;
+}
+.busca button {
+  background-color: #c86be5;
+  /*color: white;
+  border: none;
+  border-radius: 15px;
+  padding: 5px;
+  font-weight: bold;
+  text-transform: uppercase;
+  box-shadow: 3px 3px 3px blue;*/
+  background-image: url("../img/busca.png");
+  background-repeat: no-repeat;
+  border: none;
+  width: 20px;
+  height: 20px;
+  text-indent: -9999px;
+  margin-left: 5px;
+}
+/*.busca button:hover {
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 15px;
+  padding: 5px;
+  font-weight: bold;
+  text-transform: uppercase;
+  box-shadow: 3px 3px 3px red;
+}*/
+.busca input[type="search"] {
+  width: 250px;
+  height: 40px;
+  background-color: #f9dcf8;
+}
+
+.destaque {
+  padding: 20px;
+  background-color: #c86be5;
+  width: 65%;
+  float: left;
+  margin-left: 10px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px black;
+  margin-top: -148px;
+}
+.destaque img {
+  width: 100%;
+  /*padding: 10px;*/
+  /*float: left;*/
+}
+/* Final destaque*/
+
+/* Inicio Portifolio*/
+.flex-container {
+  display: flex;
+  max-width: 100%;
+  width: 100%;
+}
+.portifolio {
+  flex: 1;
+  background-color: red;
+  border: 2px solid black;
+  width: 33%;
+  height: 280px;
+  margin-right: 20px;
+  border-radius: 15px;
+  margin-top: 10px;
+}
+.portifolio:last-child {
+  margin-right: 0;
+}
+.esq {
+  background-color: blue;
+}
+.esq img {
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 5px;
+}
+.esq p {
+  text-align: justify;
+  color: white;
+  margin: 3px;
+  font-family: "open_sanssemibold", "Open Sans", Arial, Helvetica, sans-serif;
+}
+.meio {
+  background-color: yellow;
+}
+.dir {
+  background-color: green;
+}
+/* Fim Portifolio*/
+
+/*Scroll*/
+.scrollbutton {
+  background-image: url("../img/setaN.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 80px;
+  height: 80px;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 999;
+  cursor: pointer;
+  display: none;
 }
