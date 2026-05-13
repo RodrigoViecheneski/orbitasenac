@@ -1,0 +1,46 @@
+/*----------------------------Inscricão Alunos na Startup----------------------------------------*/
+.i {
+  margin-left: 65px;
+}
+
+fieldset {
+  width: 85%;
+  background-color: #a562d1;
+  border: solid 2px black;
+  border-radius: 60px;
+  padding-top: 50px;
+  padding-left: 40px;
+  margin: 10px;
+  margin-top: 20px;
+  display: inline;
+}
+fieldset legend {
+  color: white;
+  font-size: 32px;
+  margin-top: -5px;
+}
+
+#enviar {
+  float: right;
+  border: none;
+  color: #333;
+  font-size: 1.4em;
+  text-transform: uppercase;
+  box-shadow: 0 1px 3px #777;
+  display: block;
+  padding: 0.5em 1em;
+  margin: 1em 1em;
+  margin-left: 600px;
+  border-radius: 10px;
+}
+
+#resultado {
+  background-color: #f0f0f0;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+  border-left: 4px solid #4caf50;
+  margin-left: 65px;
+  width: 85%;
+}
+/*----------------------------FInal inscricão Alunos na Startup----------------------------------------*/

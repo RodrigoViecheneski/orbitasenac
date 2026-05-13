@@ -7,6 +7,10 @@
 .modelo {
   position: relative;
   padding-top: 90px;
+  border: 2px solid black;
+  background-color: white;
+  border-radius: 10px;
+  height: 400px;
 }
 .modelo img {
   width: 50%;
@@ -62,12 +66,7 @@ label[for="amarelo"]::after {
   font: bold 0.9em/2.5 Arial;
   text-transform: uppercase;
 }
-fieldset {
-  border: 2px solid black;
-  background-color: white;
-  border-radius: 10px;
-  height: 400px;
-}
+
 .texto {
   width: 50%;
   float: left;
